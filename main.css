@@ -1,0 +1,108 @@
+:root {
+  --text:     #cdd6f4;
+  --subtext:  #bac2de;
+  --pink:     #f5c2e7;
+  --blue:     #89b4fa;
+  --yellow:   #f9e2af;
+  --red:      #f38ba8;
+  --bg:       #1e1e2e;
+}
+
+body {
+  font-family:      Roboto, sans-serif;
+  margin:           auto;
+  font-size:        20px;
+  padding:          20px;
+  color:            var(--text);
+  background-color: var(--bg);
+  max-width:        90vw;
+}
+
+div.flex {
+  display: flex;
+}
+
+div.flex-split {
+  display: flex;
+  justify-content: space-between;
+}
+
+img#pfp{
+  width:  20vw;
+  height: 20vw;
+}
+
+img {
+  max-width:    60vw;
+  border-style: solid;
+  border-color: var(--subtext);
+  margin:       5px;
+}
+
+img.icon {
+  height: 50px;
+  width:  50px;
+  border: none;
+}
+
+div.linktext {
+  padding-left: 50px;
+}
+
+a {
+  text-decoration:  none;
+  color:            var(--blue);
+}
+
+a:hover {
+  text-decoration:  underline;
+}
+
+div.header {
+  position:             sticky;
+  top:                  0;
+  background-color:     var(--bg);
+  border-bottom-style:  solid;
+  border-bottom-color:  var(--yellow);
+}
+
+div.center {
+  margin: auto;
+  max-width: 60vw;
+}
+
+h1 {
+  text-align: center;
+  color:      var(--pink);
+}
+
+h2 {
+  color: var(--pink);
+}
+
+div.header nav {
+  padding:  20px 0px 5px 0px;
+  display:  inline-block;
+}
+
+div.header nav ul {
+  padding:  0px;
+}
+
+div.header nav ul li {
+  display:        inline-block;
+  padding-right:  20px;
+}
+
+div.header a {
+  color:            var(--blue);
+  text-decoration:  none;
+}
+
+div.header a:hover {
+  text-decoration: underline;
+}
+
+div.header a:active {
+  color: var(--red);
+}
