@@ -1,3 +1,3 @@
 # Github Page
 
-:wave: This is the github repo for my github page
+:wave: This is the github repo for my github portfolio page

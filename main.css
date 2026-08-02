@@ -23,13 +23,14 @@ div.flex {
 }
 
 div.flex-split {
-  display: flex;
-  justify-content: space-between;
+  display:          flex;
+  justify-content:  space-between;
 }
 
 img#pfp{
-  width:  20vw;
-  height: 20vw;
+  width:          20vw;
+  height:         20vw;
+  border-radius:  50%;
 }
 
 img {
@@ -67,8 +68,8 @@ div.header {
 }
 
 div.center {
-  margin: auto;
-  max-width: 60vw;
+  margin:     auto;
+  max-width:  60vw;
 }
 
 h1 {
@@ -81,12 +82,12 @@ h2 {
 }
 
 div.header nav {
-  padding:  20px 0px 5px 0px;
-  display:  inline-block;
+  padding: 20px 0px 5px 0px;
+  display: inline-block;
 }
 
 div.header nav ul {
-  padding:  0px;
+  padding: 0px;
 }
 
 div.header nav ul li {
