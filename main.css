@@ -2,13 +2,13 @@
 @import "public/fonts/fa/css/all.css";
 
 :root {
-  --text:     #cdd6f4;
+  --text:     #FFFFFF;
   --subtext:  #bac2de;
   --pink:     #f5c2e7;
   --blue:     #89b4fa;
-  --yellow:   #f9e2af;
+  --yellow:   #FFF000;
   --red:      #f38ba8;
-  --bg:       #1e1e2e;
+  --bg:       #000000;
 }
 
 body {
@@ -55,14 +55,17 @@ div.linktext {
 
 a {
   text-decoration:  none;
-  color:            var(--blue);
+  color:            var(--yellow);
 }
 
 a:hover {
-  text-decoration:  underline;
+  /* text-decoration:  underline; */
+  text-decoration: none;
 }
 
 div.header {
+  display:              flex;
+  justify-content:      space-between;
   position:             sticky;
   top:                  0;
   background-color:     var(--bg);
@@ -76,17 +79,26 @@ div.center {
 }
 
 h1 {
+  font-size:  200px;
   text-align: center;
-  color:      var(--pink);
+  color:      var(--yellow);
+  margin:     0px;
 }
 
 h2 {
-  color: var(--pink);
+  color: var(--yellow);
 }
 
-div.header nav {
-  padding: 20px 0px 5px 0px;
-  display: inline-block;
+div.nav {
+  padding:  20px 0px 5px 0px;
+  display:  inline-block;
+  width:    8vw;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
 }
 
 div.header nav ul {
@@ -99,7 +111,7 @@ div.header nav ul li {
 }
 
 div.header a {
-  color:            var(--blue);
+  color:            var(--yellow);
   text-decoration:  none;
 }
 
@@ -108,7 +120,7 @@ div.header a:hover {
 }
 
 div.header a:active {
-  color: var(--red);
+  color: var(--text);
 }
 
 .icon-fab {
@@ -117,4 +129,12 @@ div.header a:active {
 
 .icon-fas {
   font-family: Font Awesome 7 Free, sans-serif;
+}
+
+.bkwrds {
+  display: inline-block; 
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
