@@ -18,7 +18,7 @@ body {
   padding:          20px;
   color:            var(--text);
   background-color: var(--bg);
-  max-width:        90vw;
+  max-width:        80vw;
 }
 
 div.flex {
