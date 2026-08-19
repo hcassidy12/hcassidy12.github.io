@@ -100,13 +100,14 @@ div.center {
 }
 
 h1 {
-  font-size:  160px;
-  text-align: center;
-  color:      var(--yellow);
-  margin:     0px;
-  font-family: "Modak", system-ui;
-  font-weight: 400;
-  font-style: normal;
+  font-size:    160px;
+  text-align:   center;
+  color:        var(--yellow);
+  margin:       0px;
+  font-family:  "Modak", system-ui;
+  font-weight:  400;
+  font-style:   normal;
+  min-width:    640px;
 }
 
 h2 {
@@ -119,13 +120,18 @@ h2 {
 div.nav {
   padding:  20px 0px 5px 0px;
   display:  inline-block;
-  width:    8vw;
+  width:    100%;
   position: relative;
 }
 
 nav {
   position: absolute;
-  bottom: 0;
+  bottom:   0;
+}
+
+nav.right {
+  position: absolute;
+  right:    0;
 }
 
 div.header nav ul {
