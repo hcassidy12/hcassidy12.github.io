@@ -1,6 +1,7 @@
 @import "public/fonts/roboto/stylesheet.css";
 @import "public/fonts/fa/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
 
 :root {
   --text:     #FFFFFF;
@@ -8,6 +9,8 @@
   --yellow:   #FFd60a;
   --alt:      #FFC300;
   --bg:       #003566;
+  --bg-alt:   #001D3D;
+
 }
 
 body {
@@ -20,8 +23,21 @@ body {
   max-width:        80vw;
 }
 
+div.content {
+  max-width:    60vw;
+  padding-left: 10vw;
+}
+
 div.flex {
   display: flex;
+}
+
+div.right-padding {
+  padding-right: 32px;
+}
+
+div.left-padding {
+  padding-left: 32px;
 }
 
 div.flex-split {
@@ -40,6 +56,11 @@ img {
   border-style: solid;
   border-color: var(--alt);
   margin:       5px;
+}
+
+img.screenshot {
+  width:          10vw;
+  border-radius:  16px;
 }
 
 img.icon {
@@ -90,7 +111,9 @@ h1 {
 
 h2 {
   color: var(--yellow);
-  padding-top: 48px;
+  /* padding-top: 48px; */
+  font-weight: 1000;
+  font-family: "Roboto Flex"
 }
 
 div.nav {
@@ -127,12 +150,20 @@ div.header a:active {
   color: var(--text);
 }
 
-.icon-fab {
-  font-family: Font Awesome 7 Brands, sans-serif;
+div.dark {
+  background-color: var(--bg-alt);
+  border-radius:    16px;
+  margin-bottom:    16px;
+  padding:          32px;
 }
 
-.icon-fas {
-  font-family: Font Awesome 7 Free, sans-serif;
+div.project-card {
+  display:          flex;
+  justify-content:  space-between;
+}
+
+div.gh-wrapper {
+  padding: 12px;
 }
 
 .bkwrds {
