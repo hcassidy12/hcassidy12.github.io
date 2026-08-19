@@ -30,8 +30,8 @@ div.flex-split {
 }
 
 img#pfp{
-  width:          20vw;
-  height:         20vw;
+  width:          16vw;
+  height:         16vw;
   border-radius:  50%;
 }
 
@@ -70,6 +70,7 @@ div.header {
   background-color:     var(--bg);
   border-bottom-style:  solid;
   border-bottom-color:  var(--yellow);
+  margin-bottom:        32px;
 }
 
 div.center {
@@ -89,6 +90,7 @@ h1 {
 
 h2 {
   color: var(--yellow);
+  padding-top: 48px;
 }
 
 div.nav {
