@@ -111,6 +111,10 @@ div.header a:active {
   color: var(--red);
 }
 
-.icon {
-  font-family: comic, sans-serif;
+.icon-fab {
+  font-family: Font Awesome 7 Brands, sans-serif;
+}
+
+.icon-fas {
+  font-family: Font Awesome 7 Free, sans-serif;
 }
