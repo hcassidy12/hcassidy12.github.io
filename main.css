@@ -1,3 +1,6 @@
+@import "public/fonts/roboto/stylesheet.css";
+@import "public/fonts/fa/css/all.css";
+
 :root {
   --text:     #cdd6f4;
   --subtext:  #bac2de;
@@ -106,4 +109,8 @@ div.header a:hover {
 
 div.header a:active {
   color: var(--red);
+}
+
+.icon {
+  font-family: comic, sans-serif;
 }
