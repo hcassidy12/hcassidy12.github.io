@@ -1,14 +1,13 @@
 @import "public/fonts/roboto/stylesheet.css";
 @import "public/fonts/fa/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 :root {
   --text:     #FFFFFF;
   --subtext:  #bac2de;
-  --pink:     #f5c2e7;
-  --blue:     #89b4fa;
-  --yellow:   #FFF000;
-  --red:      #f38ba8;
-  --bg:       #000000;
+  --yellow:   #FFd60a;
+  --alt:      #FFC300;
+  --bg:       #003566;
 }
 
 body {
@@ -39,7 +38,7 @@ img#pfp{
 img {
   max-width:    60vw;
   border-style: solid;
-  border-color: var(--subtext);
+  border-color: var(--alt);
   margin:       5px;
 }
 
@@ -79,10 +78,13 @@ div.center {
 }
 
 h1 {
-  font-size:  200px;
+  font-size:  160px;
   text-align: center;
   color:      var(--yellow);
   margin:     0px;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
