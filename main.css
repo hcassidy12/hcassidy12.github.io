@@ -74,8 +74,11 @@ a {
 }
 
 a:hover {
-  /* text-decoration:  underline; */
   text-decoration: none;
+}
+
+a:hover i, a:hover span {
+  color: var(--alt);
 }
 
 div.header {
@@ -162,7 +165,7 @@ div.gh-wrapper {
 }
 
 a.card-link {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   display:        block;
 }
 
