@@ -3,10 +3,11 @@ div.header h1 span span {
   animation: animate 2s;
 }
 
-div.header:hover h1:hover span span {
-  transition: all 0s;
-  animation: animate 2s infinite;
-}
+/* hover anim */
+/* div.header:hover h1:hover span span { */
+/*   transition: all 0s; */
+/*   animation: animate 2s infinite; */
+/* } */
 
 @keyframes animate {
   0% {
