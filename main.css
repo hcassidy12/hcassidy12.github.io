@@ -99,7 +99,7 @@ div.center {
 h2 {
   color: var(--yellow);
   font-weight: 1000;
-  font-family: "Roboto Flex";
+  font-family: 'TwitterColorEmoji', "Roboto Flex", sans-serif;
   border-bottom-style: solid;
   border-bottom-color: var(--yellow)
 }
@@ -107,7 +107,7 @@ h2 {
 div.nav {
   padding:  20px 0px 5px 0px;
   display:  inline-block;
-  width:    100%;
+  /* width:    100%; */
   position: relative;
 }
 

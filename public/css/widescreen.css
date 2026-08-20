@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   div.content {
     max-width:    60vw;
     padding-left: 10vw;
@@ -35,5 +35,11 @@
 
   div.widescreen {
     display: inherit;
+  }
+  div.nav {
+    width: 100%;
+  }
+  div.phone-small {
+    display: none;
   }
 }
