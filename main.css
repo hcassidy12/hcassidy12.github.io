@@ -1,4 +1,7 @@
+@import "public/css/phone.css";
+@import "public/css/widescreen.css";
 @import "public/fonts/roboto/stylesheet.css";
+@import "public/fonts/emoji/stylesheet.css";
 @import "public/fonts/fa/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
@@ -14,7 +17,7 @@
 }
 
 body {
-  font-family:      Roboto, sans-serif;
+  font-family:      Roboto, 'TwitterColorEmoji', sans-serif;
   margin:           auto;
   font-size:        20px;
   padding:          20px;
@@ -23,10 +26,6 @@ body {
   max-width:        80vw;
 }
 
-div.content {
-  max-width:    60vw;
-  padding-left: 10vw;
-}
 
 div.flex {
   display: flex;
@@ -56,12 +55,6 @@ img {
   border-style: solid;
   border-color: var(--alt);
   margin:       5px;
-}
-
-img.screenshot {
-  width:          10vw;
-  border-radius:  16px;
-  border-style:   none;
 }
 
 img.icon {
@@ -102,16 +95,6 @@ div.center {
   align-items:      center;
 }
 
-h1 {
-  font-size:    160px;
-  text-align:   center;
-  color:        var(--yellow);
-  margin:       0px;
-  font-family:  "Modak", system-ui;
-  font-weight:  400;
-  font-style:   normal;
-  min-width:    640px;
-}
 
 h2 {
   color: var(--yellow);
@@ -128,6 +111,16 @@ div.nav {
   position: relative;
 }
 
+div#wide-h2 {
+  width:        100%;
+  display:      flex;
+  align-items:  bottom;
+}
+
+h2#wide {
+  width: 100%;
+}
+
 nav {
   position: absolute;
   bottom:   0;
@@ -140,11 +133,6 @@ nav.right {
 
 div.header nav ul {
   padding: 0px;
-}
-
-div.header nav ul li {
-  display:        inline-block;
-  padding-right:  20px;
 }
 
 div.header a {
@@ -169,7 +157,12 @@ div.project-card {
 }
 
 div.gh-wrapper {
-  padding: 12px;
+  padding: 12px 0px 12px 12px;
+}
+
+a.card-link {
+  padding-bottom: 24px;
+  display:        block;
 }
 
 footer {

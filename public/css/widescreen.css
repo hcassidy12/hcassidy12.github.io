@@ -1,0 +1,39 @@
+@media (min-width: 900px) {
+  div.content {
+    max-width:    60vw;
+    padding-left: 10vw;
+  }
+
+  h1 {
+    font-size:    160px;
+    text-align:   center;
+    color:        var(--yellow);
+    margin:       0px;
+    font-family:  "Modak", system-ui;
+    font-weight:  400;
+    font-style:   normal;
+    min-width:    640px;
+    max-height:   180px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  div.swap {
+    display: flex;
+  }
+
+  img.screenshot {
+    width:          10vw;
+    border-style:   none;
+  }
+
+  div.phone {
+    display: none;
+  }
+
+  div.widescreen {
+    display: inherit;
+  }
+}

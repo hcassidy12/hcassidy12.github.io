@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+  div.content {
+    max-width:    72vw;
+    padding-left: 4vw;
+  }
+
+  h1 {
+    font-size:    128px;
+    text-align:   center;
+    color:        var(--yellow);
+    margin:       0px;
+    font-family:  "Modak", system-ui;
+    font-weight:  400;
+    font-style:   normal;
+    min-width:    450px;
+    max-height:   150px;
+  }
+
+  li {
+    display:          block;
+    list-style-type:  none;
+    padding-top:      16px;
+  }
+  
+  div.swap {
+    display: block;
+  }
+
+  img.screenshot {
+    width:          16vw;
+    border-style:   none;
+  }
+
+  div.phone {
+    display: inherit;
+  }
+
+  div.widescreen {
+    display: none;
+  }
+}
