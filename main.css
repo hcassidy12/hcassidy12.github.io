@@ -1,5 +1,6 @@
 @import "public/css/phone.css";
 @import "public/css/widescreen.css";
+@import "public/css/animation.css";
 @import "public/fonts/roboto/stylesheet.css";
 @import "public/fonts/emoji/stylesheet.css";
 @import "public/fonts/fa/css/all.css";
@@ -9,7 +10,7 @@
 :root {
   --text:     #FFFFFF;
   --subtext:  #bac2de;
-  --yellow:   #FFd60a;
+  --yellow:   #FFd400;
   --alt:      #FFC300;
   --bg:       #003566;
   --bg-alt:   #001D3D;
@@ -20,7 +21,6 @@ body {
   font-family:      Roboto, 'TwitterColorEmoji', sans-serif;
   margin:           auto;
   font-size:        20px;
-  padding:          20px;
   color:            var(--text);
   background-color: var(--bg);
   max-width:        80vw;
