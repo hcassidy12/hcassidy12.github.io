@@ -35,11 +35,21 @@
 
   div.widescreen {
     display: inherit;
+    position: sticky;
   }
+
   div.nav {
     width: 100%;
   }
+
   div.phone-small {
     display: none;
+  }
+
+  div.phone-large {
+    position:         sticky;
+    top:              0;
+    background-color: var(--bg);
+    z-index:          20;
   }
 }

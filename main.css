@@ -24,6 +24,7 @@ body {
   color:            var(--text);
   background-color: var(--bg);
   max-width:        80vw;
+  padding:          0px;
 }
 
 
@@ -97,11 +98,11 @@ div.center {
 
 
 h2 {
-  color: var(--yellow);
-  font-weight: 1000;
-  font-family: 'TwitterColorEmoji', "Roboto Flex", sans-serif;
-  border-bottom-style: solid;
-  border-bottom-color: var(--yellow)
+  color:                var(--yellow);
+  font-weight:          1000;
+  font-family:          'TwitterColorEmoji', "Roboto Flex", sans-serif;
+  border-bottom-style:  solid;
+  border-bottom-color:  var(--yellow)
 }
 
 div.nav {
@@ -182,9 +183,9 @@ footer a {
 }
 
 .bkwrds {
-  display: inline-block; 
-  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  display:            inline-block; 
+  -webkit-transform:  matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform:     matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform:       matrix(-1, 0, 0, 1, 0, 0);
+  transform:          matrix(-1, 0, 0, 1, 0, 0);
 }

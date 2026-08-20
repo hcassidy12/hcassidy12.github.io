@@ -13,7 +13,8 @@
     font-weight:  400;
     font-style:   normal;
     min-width:    450px;
-    max-height:   120px;
+    max-height:   80px;
+    padding-top: 40px;
   }
 
   li {
@@ -44,7 +45,11 @@
   }
 
   div.phone-large {
-    display: inherit;
+    display:          inherit;
+    position:         sticky;
+    top:              0;
+    background-color: var(--bg);
+    z-index:          20;
   }
 
   div#wide-h2 {
@@ -55,12 +60,15 @@
   div#wide-h2 h2 {
     max-height: 39px;
   }
-
+  
+  div.header {
+    min-height: 150px;
+  }
 }
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 60px;
+    font-size:  60px;
     max-height: 20px;
   }
 
@@ -73,15 +81,17 @@
   }
 
   div.phone-small {
-    display: inherit;
+    display:          inherit;
+    position:         sticky;
+    top:              0;
+    background-color: var(--bg);
+    z-index:          20;
   }
   div.phone-large {
     display: none;
   }
 
   div.small-header {
-    /* display:              flex; */
-    /* justify-content:      space-between; */
     position:             sticky;
     top:                  0;
     border-bottom-style:  solid;
@@ -99,8 +109,8 @@
   }
 
   div#navbar-small {
-    display: flex;
-    justify-content: space-between;
+    display:          flex;
+    justify-content:  space-between;
   }
 
   div#nav-s-l ul {
