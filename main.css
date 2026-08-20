@@ -61,6 +61,7 @@ img {
 img.screenshot {
   width:          10vw;
   border-radius:  16px;
+  border-style:   none;
 }
 
 img.icon {
@@ -95,8 +96,10 @@ div.header {
 }
 
 div.center {
-  margin:     auto;
-  max-width:  60vw;
+  margin:           auto;
+  display:          flex;
+  justify-content:  center;
+  align-items:      center;
 }
 
 h1 {
@@ -112,9 +115,10 @@ h1 {
 
 h2 {
   color: var(--yellow);
-  /* padding-top: 48px; */
   font-weight: 1000;
-  font-family: "Roboto Flex"
+  font-family: "Roboto Flex";
+  border-bottom-style: solid;
+  border-bottom-color: var(--yellow)
 }
 
 div.nav {
@@ -148,10 +152,6 @@ div.header a {
   text-decoration:  none;
 }
 
-div.header a:hover {
-  text-decoration: underline;
-}
-
 div.header a:active {
   color: var(--text);
 }
@@ -170,6 +170,22 @@ div.project-card {
 
 div.gh-wrapper {
   padding: 12px;
+}
+
+footer {
+  color:            var(--subtext);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display:          flex;
+  justify-content:  center;
+  align-items:      center;
+  margin-top:       128px;
+  padding:          24px;
+}
+
+footer a {
+  color:            var(--subtext);
+  text-decoration:  underline;
 }
 
 .bkwrds {
