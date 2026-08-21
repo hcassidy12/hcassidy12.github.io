@@ -7,13 +7,17 @@
   h1 {
     font-size:    160px;
     text-align:   center;
-    /* color:        var(--alt); */
+    color:        var(--yellow);
     margin:       0px;
     font-family:  "Modak", system-ui;
     font-weight:  400;
     font-style:   normal;
     min-width:    720px;
     max-height:   180px;
+  }
+
+  h1:hover {
+    color: var(--alt);
   }
 
   li {

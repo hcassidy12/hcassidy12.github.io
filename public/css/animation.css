@@ -1,13 +1,15 @@
 div.header h1 span span {
-  transition: all 0.5s;
   animation: animate 2s;
 }
 
-/* hover anim */
-/* div.header:hover h1:hover span span { */
-/*   transition: all 0s; */
-/*   animation: animate 2s infinite; */
-/* } */
+div.header h1:active span span {
+  animation: none;
+}
+
+div.header h1:focus span span {
+  animation: animate 2s;
+}
+
 
 @keyframes animate {
   0% {
